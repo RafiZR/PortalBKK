@@ -13,6 +13,7 @@
                 @auth
                     @if(auth()->user()->role === 'admin')
                         <li class="nav-item"><a class="nav-link" href="{{ route('lowongan.index') }}">Lowongan Kerja (Admin)</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('perusahaan.index') }}">Perusahaan (Admin)</a></li>
                     @endif
                     @if(auth()->user()->role === 'siswa')
                         <li class="nav-item"><a class="nav-link" href="{{ route('pelamar.list_lowongan') }}">Lowongan Kerja (Siswa)</a></li>

@@ -311,6 +311,12 @@ return [
             'can'  => ['admin'],
         ],
         [
+            'text' => 'Perusahaan',
+            'url'  => 'admin/perusahaan',
+            'icon' => 'fas fa-briefcase',
+            'can'  => ['admin'],
+        ],
+        [
             'text' => 'Lowongan Kerja (Siswa)',
             'url'  => 'lowongan',
             'icon' => 'fas fa-list',
